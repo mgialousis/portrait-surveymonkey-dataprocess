@@ -10,7 +10,7 @@ FIXTURE = (
     .parent                    # .../tests
     .parent                    # .../<root>
     / "data"                   # .../<root>/data
-    / "PORTRAIT_v3_updated.csv"
+    / "PORTRAIT_last_updated.csv"
 )
 # Expected numeric results for each user
 EXPECTED = {
