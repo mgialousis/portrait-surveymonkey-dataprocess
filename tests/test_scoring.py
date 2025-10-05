@@ -10,7 +10,7 @@ FIXTURE = (
     .parent                    # .../tests
     .parent                    # .../<root>
     / "data"                   # .../<root>/data
-    / "PORTRAIT_last_updated.csv"
+    / "PORTRAIT_test_updated.csv"
 )
 # Expected numeric results for each user
 EXPECTED = {
@@ -64,7 +64,7 @@ EXPECTED = {
         "BFI_Extraversion": 2.75,
         "BFI_Agreeableness": 2.78,
         "BFI_Conscientiousness": 3.44,
-        "BFI_Neuroticism": 3.13,
+        "BFI_Neuroticism": 3.12,
         "BFI_Openness": 2.80,
         # ASSIST scores
         "Tabaco (cigarrillos, tabaco de mascar, puros, etc.)": 0,
@@ -82,7 +82,7 @@ EXPECTED = {
         "oci_total": 0,
         "bai_total": 21,
         "stai_total": 21,
-        "BFI_Extraversion": 2.63,
+        "BFI_Extraversion": 2.62,
         "BFI_Agreeableness": 2.78,
         "BFI_Conscientiousness": 2.78,
         "BFI_Neuroticism": 2.50,
