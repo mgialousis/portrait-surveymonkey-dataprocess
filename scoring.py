@@ -206,6 +206,7 @@ def score_survey(df, output_csv=None):
             bfi_scores[scale] = round(sum(vals)/len(vals),2)
         # assemble record
         rec = {"username": uname,
+               "gender": sex,
                "phq_total": phq_sum, "phq_classification": phq_cls,
                "bai_total": bai_sum, "bai_classification": bai_cls,
                "oci_total": oci_sum, "oci_classification": oci_cls,
