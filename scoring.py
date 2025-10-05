@@ -170,11 +170,11 @@ def score_survey(df, output_csv=None):
         # PHQ total
         phq_vals = row[phq_start:phq_end].astype(float)
         phq_sum = int(phq_vals.sum())
-        if phq_sum<5: phq_cls="minimal depression"
-        elif phq_sum<10: phq_cls="mild depression"
-        elif phq_sum<15: phq_cls="moderate depression"
-        elif phq_sum<20: phq_cls="moderately severe depression"
-        else: phq_cls="severe depression"
+        if phq_sum<5: phq_cls="1-minimal depression"
+        elif phq_sum<10: phq_cls="2-mild depression"
+        elif phq_sum<15: phq_cls="3-moderate depression"
+        elif phq_sum<20: phq_cls="4-moderately severe depression"
+        else: phq_cls="5-severe depression"
         # BAI total
         bai_vals = row[bai_start:bai_end+1].astype(float)
         bai_sum = int(bai_vals.sum())
